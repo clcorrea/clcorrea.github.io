@@ -1,0 +1,18 @@
+body {
+	font-family: sans-serif;
+}
+h1, h3 {
+	color:goldenrod;
+}
+#ingredients {
+	background-color: aliceblue;
+}
+#instructions {
+	background-color: honeydew;
+}
+#author {
+	font-style: italic
+}
+#padthai {
+	float: right;
+}
