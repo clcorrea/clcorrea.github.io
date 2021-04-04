@@ -27,5 +27,6 @@ h1, h3 {
 }
 #padthai-image {
     border-width: 5px;
+    border-style: solid;
     border-color: #808000;
 }
