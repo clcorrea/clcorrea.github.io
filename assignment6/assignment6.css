@@ -30,3 +30,11 @@ h1, h3 {
     border-style: solid;
     border-color: #808000;
 }
+section {
+    margin: 2rem;
+    padding: 1em;
+    border: 2px solid #191970;
+    border-radius: 10px;
+    background-color: #F0F8FF;
+    box-shadow: 4px 4px 4px rgb(210, 210, 210);
+}
