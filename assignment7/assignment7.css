@@ -40,7 +40,7 @@ section {
 }
 @media screen and (max-width: 800px) {
     h1 {
-        font-family: 'Veranda', serif;
+        font-family: Georgia, serif;
     }
     img {
         max-width: 300px;
