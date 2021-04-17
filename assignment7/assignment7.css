@@ -57,9 +57,3 @@ section {
         background: white;
     }
 }
-@media screen and (min-width: 480px){
-    main img {
-        float:right;
-        margin: 0 1em 1em 0;
-    }
-}
