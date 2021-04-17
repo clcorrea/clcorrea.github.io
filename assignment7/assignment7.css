@@ -49,11 +49,17 @@ section {
         font-size: 150%;
     }
     section {
-        (box-shadow: none;)
+        box-shadow: none;
     }
 }
 @media screen and (orientation: portrait) {
     body {
         background: white;
+    }
+}
+@media screen and (min-width: 480px){
+    main img {
+        float:right;
+        margin: 0 1em 1em 0;
     }
 }
