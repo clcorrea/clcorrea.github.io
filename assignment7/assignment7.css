@@ -49,7 +49,7 @@ section {
         font-size: 150%;
     }
     section {
-        box-shadow: none;
+        (box-shadow: none;)
     }
 }
 @media screen and (orientation: portrait) {
