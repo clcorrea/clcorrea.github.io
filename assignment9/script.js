@@ -1,8 +1,8 @@
 var isHidden = true;
 
-function toggleMain () {
+function toggleMain() {
     var display;
-
+    
     if (isHidden) {
         isHidden = false;
         display = "block";
@@ -10,11 +10,11 @@ function toggleMain () {
         isHidden = true;
         display = "none";
     }
-    var content = document.getElementById ("content");
+    var content = document.getElementById("content");
     content.style.display = display;
 }
-var sections = document.getElementsByTagName ("section");
+var sections = document.getElementsByTagName("section");
 
 for (var i = 0; i < sections.length; i++) {
-    sections [i].style.borderColor = "red";
+    sections[i].style.borderColor = "red";
 }
