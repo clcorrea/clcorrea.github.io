@@ -1,0 +1,65 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+h1, h3 {
+    font-family: 'Forum', serif;	
+} 
+html {
+    font-size: 100%;
+}
+body {
+    font-size: 1.0rem;
+}
+h1, h3 {
+    font-size: 1.6rem;
+}
+body {
+    background-color: #FAF0E6;
+}
+h1, h3 {
+    color: #808000;
+}
+#author {
+    color: rgb(119, 136, 153); 
+}
+#author {
+    font-style: italic;
+}
+#padthai-image {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #808000;
+}
+section {
+    margin: 2rem;
+    padding: 1em;
+    border: 2px solid #191970;
+    border-radius: 10px;
+    background-color: #F0F8FF;
+    box-shadow: 4px 4px 4px rgb(210, 210, 210);
+}
+@media screen and (max-width: 800px) {
+    h1 {
+        font-family: Georgia, serif;
+    }
+    img {
+        max-width: 300px;
+    }
+    html {
+        font-size: 150%;
+    }
+    section {
+        box-shadow: none;
+    }
+}
+@media screen and (orientation: portrait) {
+    body {
+        background: white;
+    }
+}
+content {
+    display: hidden;
+}
+h1 {
+    cursor: pointer;
+}
