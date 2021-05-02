@@ -17,7 +17,7 @@ function toggleMain() {
 var sections = document.getElementsByTagName("section");
 
 for (var i = 0; i < sections.length; i++) {
-    sections[i].style.borderColor = "red";
+        sections[i].style.borderColor = "red";
 }
 
 /* The toggleMain function affects the display of the page. 
