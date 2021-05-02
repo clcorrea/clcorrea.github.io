@@ -16,5 +16,10 @@ function toggleMain() {
 var sections = document.getElementsByTagName("section");
 
 for (var i = 0; i < sections.length; i++) {
-    sections[i].style.borderColor = "red";
+    sections[i].style.borderColor = "blue";
 }
+
+/* The toggleMain function affects the display. 
+It allows the content with the main id
+to be hidden when clicking the title Vegetarian Pad Thai.
+ */
