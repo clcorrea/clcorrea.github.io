@@ -23,4 +23,5 @@ for (var i = 0; i < sections.length; i++) {
 /* The toggleMain function affects the display of the page. 
 It allows the content with the main id to be hidden when 
 clicking the title Vegetarian Pad Thai (onclick="toggleMain()").
-The */
+The color of all elements named Section should have red
+borders.*/
