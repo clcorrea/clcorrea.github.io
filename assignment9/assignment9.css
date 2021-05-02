@@ -59,6 +59,7 @@ section {
 }
 content {
     display: none;
+    visibility: hidden;
 }
 h1 {
     cursor: pointer;
