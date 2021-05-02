@@ -57,7 +57,7 @@ section {
         background: white;
     }
 }
-#content {
+content {
     display: hidden;
 }
 h1 {
