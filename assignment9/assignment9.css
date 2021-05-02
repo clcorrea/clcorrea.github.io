@@ -58,7 +58,7 @@ section {
     }
 }
 content {
-    display: hidden;
+    visibility: hidden;
 }
 h1 {
     cursor: pointer;
